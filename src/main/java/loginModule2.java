@@ -46,5 +46,14 @@ public class loginModule2 {
         verifyButton.click();
 
 
+        WebElement remitbeebutton = driver.findElement(By.id("fullname"));
+        Thread.sleep(2000);
+        remitbeebutton.click();
+
+
+        WebElement logout = driver.findElement(By.xpath("//*[@id='user-menu-Logout']/div/div"));
+        Thread.sleep(2000);
+        logout.click();
+
     }
 }
