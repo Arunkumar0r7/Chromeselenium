@@ -18,7 +18,7 @@ public class signupModule {
         signupButtonbox.click();
 
         WebElement emailBox = driver.findElement(By.id("email"));
-        emailBox.sendKeys("remittest6666@gmail.com");
+        emailBox.sendKeys("remittest5555555@gmail.com");
 
         WebElement passwordBox = driver.findElement(By.id("password"));
         passwordBox.sendKeys("Remy@ru17");
@@ -28,7 +28,7 @@ public class signupModule {
 
        WebElement phonenumber = driver.findElement(By.id("cus_phone1"));
 
-           phonenumber.sendKeys("9704001950");
+       phonenumber.sendKeys("9704001950");
 
         WebElement sendcodeButton = driver.findElement(By.id("send-code"));
         sendcodeButton.click();
@@ -64,20 +64,21 @@ public class signupModule {
         WebElement backButton = driver.findElement(By.id("btn-back"));
         backButton.click();
 
-        WebElement exchangeBox = driver.findElement(By.id("exchange"));
-        exchangeBox.click();
-        Thread.sleep(2000);
-
-        WebElement backButton2 = driver.findElement(By.id("btn-back"));
-        backButton.click();
-
-        WebElement imsbox = driver.findElement(By.id("bill"));
-        backButton2.click();
-        Thread.sleep(2000);
-
-        WebElement backButton3 = driver.findElement(By.id("btn-back"));
-        backButton3.click();
-
+//        WebElement exchangeBox = driver.findElement(By.id("exchange"));
+//        exchangeBox.click();
+//        Thread.sleep(2000);
+//
+//        WebElement backButton2 = driver.findElement(By.id("btn-back"));
+//        backButton.click();
+//
+//        WebElement imsbox = driver.findElement(By.id("bill"));
+//        backButton2.click();
+//        Thread.sleep(2000);
+//
+//        WebElement backButton3 = driver.findElement(By.id("btn-back"));
+//        backButton3.click();
+        WebElement decidelaterButton = driver.findElement(By.id("decide-later"));
+        decidelaterButton.click();
 
 
     }
