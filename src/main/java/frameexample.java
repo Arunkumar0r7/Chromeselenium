@@ -20,6 +20,11 @@ public class frameexample {
         driver.switchTo().frame(0);
         driver.findElement(By.name("email")).sendKeys("Test@123");
 
+        // retrive to parentframe
+        driver.switchTo().parentFrame();
+        driver.findElement(By.name("lname")).sendKeys("kanniappan");
+
+
 
 
 
