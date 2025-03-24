@@ -24,6 +24,12 @@ public class frameexample {
         driver.switchTo().parentFrame();
         driver.findElement(By.name("lname")).sendKeys("kanniappan");
 
+        //back to main frame
+
+        driver.switchTo().defaultContent();
+        driver.findElement(By.xpath("/html/body/app-root/app-frame/section/div/div/div[2]/app-learning-point/div/footer/a")).click();
+
+        driver.close();
 
 
 
