@@ -13,7 +13,9 @@ public class loginModule2 {
         WebDriver driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
+        driver.manage().window().maximize();
         driver.get("https://www.cp.wisecapitals.com/");
+
 
         WebElement LoginButtonbox = driver.findElement(By.id("log-in"));
         LoginButtonbox.click();
